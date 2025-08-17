@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soumili Ghosh | Portfolio</title>
-    
+    <title>Soumili Ghosh - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +13,7 @@
 <body>
 
 <header class="header">
-    <a href="#" class="logo">Soumili Ghosh</a>
+    <a href="#home" class="logo">Soumili Ghosh</a>
     
     <nav class="navbar">
         <a href="#home">Home</a>
@@ -22,42 +21,43 @@
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#education">Education</a>
-        <a href="#contact-form">Contact</a>
+        <a href="#resume">Resume</a>
+    
     </nav>
-    <a href="#contact-form" class="contact">Contact Me</a>
+    <a href="#contact-form" class="contact-btn">Contact Me</a>
 </header>
 
 
-<a href="#" id="scrollToTopBtn" class="scroll-to-top-btn"><i class='bx bxs-up-arrow'></i></a>
+<a href="#home" id="scrollToTopBtn" class="scroll-to-top-btn"><i class='bx bxs-up-arrow'></i></a>
 
-<section class="home" id="home">
+<section class="home-section" id="home">
     <div class="home-content">
         <h3>Hi, I'm</h3>
         <h2>Soumili Ghosh<br>Frontend Developer</h2>
-        <p>I'm a motivated final-year B.Tech CSE student passionate about creating clean, efficient code and eager to contribute to web development teams.</p>
+        <p>I'm a motivated final-year B.Tech CSE student passionate about creating clean, efficient code and eager to contribute to web development teams. I have hands-on experience building responsive web projects with HTML, CSS, and JavaScript.</p>
         <div class="btn-box">
             <a href="#projects" class="btn-1">View Projects</a>
             <a href="#contact-form" class="btn-2">Contact Me</a>
         </div>
     </div>
-    <div class="img-box">
-       
-        <img src="/Pics/1.jpg" alt="profile">
+    <div class="home-img">
+        <img src="/Pics/1.jpg" alt="Soumili Ghosh profile picture">
     </div>
 </section>
 
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="/Pics/2.jpg" alt="profile">
+<section class="about-section" id="about">
+    <div class="about-img-container">
+        <img src="/Pics/2.jpg" alt="Soumili Ghosh professional photo">
     </div>
     <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
-        <h3>A Passionate Web Developer</h3>
+        <h3>Motivated & Adaptable Student</h3>
         <p>As a motivated final-year B.Tech CSE student at Hooghly Engineering & Technology College, I'm driven to build user-centric web projects. My hands-on experience in HTML, CSS, and JavaScript has given me a strong foundation in front-end development. I thrive in collaborative environments, where I can apply my skills and tackle real-world challenges. My strengths include being a quick learner, adaptable, and a strong communicator, which I've honed through activities like participating in the CodeConquer 2025 online hackathon.</p>
     </div>
 </section>
 
-<section class="skills" id="skills">
+<!-- Skills Section -->
+<section class="skills-section" id="skills">
     <h2 class="heading">Technical <span>Skills</span></h2>
     <div class="skills-container">
         <div class="skill-item">
@@ -65,6 +65,7 @@
             <ul>
                 <li>C</li>
                 <li>Java</li>
+                <li>Python</li>
             </ul>
         </div>
         <div class="skill-item">
@@ -84,27 +85,25 @@
     </div>
 </section>
 
-
-<section class="projects" id="projects">
+<!-- Projects Section -->
+<section class="projects-section" id="projects">
     <h2 class="heading">My <span>Projects</span></h2>
     <div class="project-container">
-        <div class="project-card">
-            <h3>Weather Forecast</h3>
-            <p>Developed a responsive site using the OpenWeather API to display live temperature, humidity, and wind speed for searched cities; includes UI updates based on weather conditions.</p>
-        </div>
-        <div class="project-card">
+        <a href="https://resume-based-test-generator-bogus-coders.onrender.com/" class="project-card">
+            <img src="/Pics/4.jpg" alt="AI Resume Test Generator Project">
             <h3>AI Resume Test Generator</h3>
             <p>Built a web application that enables users to upload their resumes, automatically generate multiple-choice questions from their skill set. This tool includes tab-switch detection to trigger real-time error handling, ensuring the user remains within the test context.</p>
-        </div>
-        <div class="project-card">
-            <h3>Cake Baking Website</h3>
-            <p>Developed a website showcasing various cake recipes and baking tips, with interactive features for users.</p>
-        </div>
+        </a>
+        <a href="https://letcakeit.netlify.app/" class="project-card">
+            <img src="/Pics/3.jpg" alt="Cake Website">
+            <h3>Cake Website</h3>
+            <p>A responsive website featuring a menu, image gallery of creations, and an ordering system to showcase and sell custom-made cakes.</p>
+        </a>
     </div>
 </section>
 
-
-<section class="education" id="education">
+<!-- Education Section -->
+<section class="education-section" id="education">
     <h2 class="heading">My <span>Education</span></h2>
     <div class="education-content">
         <div class="edu-item">
@@ -125,8 +124,19 @@
     </div>
 </section>
 
-<section class="contact-form" id="contact-form">
-    <h2 class="contact-me">Contact <span>Me</span></h2>
+<!-- Resume Section -->
+<section class="resume-section" id="resume">
+    <h2 class="heading">My <span>Resume</span></h2>
+    <a href="/Pics/Resume.pdf" class="btn-2" download>Download Resume (PDF)</a>
+</section>
+
+<!-- Contact Form Section -->
+<section class="contact-form-section" id="contact-form">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> soumilig1306@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9088XXXXXX</p>
+    </div>
     <form id="contactForm">
         <div class="input-box">
             <input type="text" placeholder="Full name" required>
@@ -156,7 +166,7 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">Privacy Policy</a></li>
     </ul>
-    <p class="copyright">© 2025 Soumili Ghosh | All Rights Reserved</p>
+    <p class="copyright">© 2024 Soumili Ghosh | All Rights Reserved</p>
 </footer>
 
 

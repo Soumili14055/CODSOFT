@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    
     const header = document.querySelector('.header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -25,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    
     const contactForm = document.getElementById('contactForm');
     const formStatusMessage = document.getElementById('formStatus');
 
@@ -35,11 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
         formStatusMessage.textContent = 'Thank you! Your message has been sent.';
         formStatusMessage.style.opacity = '1';
 
-       
         setTimeout(() => {
             contactForm.reset();
             formStatusMessage.style.opacity = '0';
-        }, 3000); 
+        }, 3000);
     });
 
    
